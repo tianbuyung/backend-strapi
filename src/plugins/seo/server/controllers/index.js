@@ -1,7 +1,7 @@
-'use strict';
+"use strict";
 
-const myController = require('./my-controller');
+const seo = require("./seo");
 
 module.exports = {
-  myController,
+  seo,
 };

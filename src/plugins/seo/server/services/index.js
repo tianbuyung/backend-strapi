@@ -1,7 +1,8 @@
-'use strict';
+"use strict";
 
-const myService = require('./my-service');
+// ./server/services/index.js
+const seo = require("./seo");
 
 module.exports = {
-  myService,
+  seo,
 };

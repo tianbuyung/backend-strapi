@@ -1,9 +1,12 @@
+// ./server/routes/index.js
+
 module.exports = [
   {
-    method: 'GET',
-    path: '/',
-    handler: 'myController.index',
+    method: "GET",
+    path: "/content-types",
+    handler: "seo.findContentTypes",
     config: {
+      auth: false,
       policies: [],
     },
   },
