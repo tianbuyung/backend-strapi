@@ -4,8 +4,7 @@
   "info": {
     "singularName": "restaurant",
     "pluralName": "restaurants",
-    "displayName": "Restaurant",
-    "description": ""
+    "displayName": "Restaurant"
   },
   "options": {
     "draftAndPublish": true
